@@ -4,8 +4,9 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
-int main() {
 
+
+int main() {
     //Peça de xadrez Torre
     int torreCasas = 5;
     for (torreCasas ; torreCasas > 0 ; torreCasas--) {
@@ -27,7 +28,19 @@ int main() {
         printf("Esquerda\n");
         rainhaCasas--;
     } while (rainhaCasas > 0);
-    
 
-    return 0;
+    //Peça de xadrez Cavalo
+    int cavaloCasas1;
+    int cavaloCasas2;
+
+    for (int i = 1; i<=2; i++) {
+        printf("Baixo cavalo\n");
+        if (i == 2) {
+            for (int j = 1; j<=1; j++) {
+                printf("Esquerda cavalo\n");
+            }
+            
+        }
+    }
+    
 }
